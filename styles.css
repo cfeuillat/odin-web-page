@@ -1,0 +1,155 @@
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .section1 {
+            background-color: #1F2937;
+            display: flex;
+            flex-direction: column;
+            padding-left: 110px;
+            padding-right: 110px;
+            padding-bottom: 130px;
+        }
+        
+        .section1 header {
+            color: #F9FAF8;
+            font-size: 48px;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        
+        .section1 p,
+        .section1 .links {
+            color: #E5E7EB;
+            font-size: 18px;
+        }
+        
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .section1 ul {
+            list-style-type: none;
+            display: flex;
+            gap: 15px;
+        }
+        
+        .logo {
+            color: #F9FAF8;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .section1 .main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 50px;
+        }
+        
+        .section1 .content {
+            width: 400px;
+        }
+        
+        .section1 button {
+            border: none;
+            background-color: #3882F6;
+            color: white;
+            padding: 10px 35px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .section2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 40px;
+            padding-bottom: 70px;
+        }
+        
+        .section2 ul {
+            list-style-type: none;
+            display: flex;
+            gap: 15px;
+        }
+        
+        .section2 .title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #1F2937;
+        }
+        
+        .section2 li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .section3 {
+            background-color: #E5E7EB;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 100px;
+        }
+        
+        .section3 .quote {
+            font-size: 36px;
+            font-weight: light;
+            color: #1F2937;
+            width: 800px;
+            align-self: center;
+        }
+        
+        .section3 .author {
+            font-weight: bold;
+            align-self: flex-end;
+            font-size: 20px;
+        }
+        
+        .section4 {
+            align-self: center;
+            margin: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #3882F6;
+            border-radius: 10px;
+            height: 100px;
+            width: 800px;
+        }
+        
+        .section4 .content {
+            color: white;
+        }
+        
+        .section4 .content .title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .section4 button {
+            background-color: #3882F6;
+            color: white;
+            border: solid 2px;
+            border-color: white;
+            border-radius: 5px;
+            padding: 5px 25px;
+        }
+        
+        .section5 {
+            background-color: #1F2937;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
